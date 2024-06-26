@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>GPA Calculator</h1>
+        <form id="gpaForm">
+            <div id="courseContainer">
+                <div class="input-group">
+                    <label for="course1Grade">Course 1 Grade:</label>
+                    <input type="text" id="course1Grade" name="course1Grade">
+                    <label for="course1Credits">Course 1 Credits:</label>
+                    <input type="number" id="course1Credits" name="course1Credits" min="0" step="0.5">
+                </div>
+                <div class="input-group">
+                    <label for="course2Grade">Course 2 Grade:</label>
+                    <input type="text" id="course2Grade" name="course2Grade">
+                    <label for="course2Credits">Course 2 Credits:</label>
+                    <input type="number" id="course2Credits" name="course2Credits" min="0" step="0.5">
+                </div>
+                <div class="input-group">
+                    <label for="course3Grade">Course 3 Grade:</label>
+                    <input type="text" id="course3Grade" name="course3Grade">
+                    <label for="course3Credits">Course 3 Credits:</label>
+                    <input type="number" id="course3Credits" name="course3Credits" min="0" step="0.5">
+                </div>
+                <div class="input-group">
+                    <label for="course4Grade">Course 4 Grade:</label>
+                    <input type="text" id="course4Grade" name="course4Grade">
+                    <label for="course4Credits">Course 4 Credits:</label>
+                    <input type="number" id="course4Credits" name="course4Credits" min="0" step="0.5">
+                </div>
+                <div class="input-group">
+                    <label for="course5Grade">Course 5 Grade:</label>
+                    <input type="text" id="course5Grade" name="course5Grade">
+                    <label for="course5Credits">Course 5 Credits:</label>
+                    <input type="number" id="course5Credits" name="course5Credits" min="0" step="0.5">
+                </div>
+            </div>
+            <button type="button" onclick="addCourse()">Add Course</button>
+            <button type="button" onclick="calculateGPA()">Calculate GPA</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

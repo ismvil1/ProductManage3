@@ -1,0 +1,38 @@
+h1 {
+    font-size: 40px;
+    font-family: "Lucida Bright", Georgia, serif;
+    text-align: center;
+    color: white;
+}
+
+.navbar ul {
+    list-style-type: none;
+    /* background-color: #D2691E; */
+    padding: 0px;
+    margin-bottom: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navbar li {
+    margin-right: 70px;
+}
+
+.navbar a {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Lucida Bright", Georgia, serif;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #aa0e4a;
+}

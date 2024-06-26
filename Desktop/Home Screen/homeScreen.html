@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home Screen </title>
+    <link rel="stylesheet" href="navbar.css">    
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="profile-pic.css">
+</head>
+<body>
+    <h1>HIFRY HALAL</h1>
+    
+    <nav class="navbar"> <!--navigation bar-->
+        <ul>
+            <!--the links to these pages are not included-->
+            <li></li>
+            <li><a href="main.html" class="navButton">Home</a></li> 
+            <li><a href="menu.html" class="navButton">Menu</a></li>
+            <li><a href="review.html" class="navButton">Review</a></li>
+            <li><a href="about.html" class="navButton">About</a></li>
+            <li><a href="sign-up.html" class = 'sign-up'> Sign Up</a></li>
+            <li><a href="login.html " class = "login "> Login</a></li>
+        </ul>
+        <div class="profile-container">
+            <img src="profile-pic.png" alt="Profile Picture" class="profile-pic" id="profile-pic">
+            <div class="dropdown-menu" id="dropdown-menu">
+                <ul>
+                    <li>View Profile</li>
+                    <li>Settings</li>
+                    <li>Log Out</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h3 class = 'third-title'> Welcome, User </h3>
+     <h2 class = 'second-title'> Top Three Dishes </h2>
+     <div class="card-container">
+        <div class="card">
+            <img src="beef-shawarma.jpg" alt="Shawarma">
+            <h3>Shawarma</h3>
+            <p>Lamb wrap with veggies</p>
+            <div class="star-rating">
+                ★★★★★
+            </div>
+            <p class="price">$9.99</p>
+            <button class="order-button">ORDER</button>
+        </div>
+        <!-- Repeat for the other two cards -->
+        <div class="card">
+            <img src="Nihari.jpg" alt="Shawarma">
+            <h3> Nihari </h3>
+            <p> Rich, slow-cooked meat stew flavored</p>
+            <div class="star-rating">
+                ★★★★★
+            </div>
+            <p class="price">$14.99</p>
+            <button class="order-button">ORDER</button>
+        </div>
+        <!-- Repeat for the other two cards -->
+        <div class="card">
+            <img src="chbiryani.jpg" alt="Shawarma">
+            <h3>Chicken Biryani</h3>
+            <p>basmati rice layered over tender & succulent pieces of meat</p>
+            <div class="star-rating">
+                ★★★★★
+            </div>
+            <p class="price">$14.99</p>
+            <button class="order-button">ORDER</button>
+        </div>
+        <!-- Repeat for the other two cards -->
+    </div>
+    
+
+    
+    <script src = "profile-pic.js"> </script>
+</body>
+</body>
+</html>

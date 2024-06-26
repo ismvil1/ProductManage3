@@ -1,0 +1,152 @@
+.card-container {
+    display: flex;
+    flex-direction: row; /* This is the correct property name */
+    justify-content: space-around; /* This will space out the cards evenly */
+    padding: 20px;
+    gap: 20px; /* This adds space between the cards */
+}
+
+.card {
+    background-color: #fff;
+    width: 250px; /* Adjust based on your actual card size */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+    margin: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* This ensures that the ORDER button stays at the bottom */
+    /* Added properties to ensure flex items don't grow or shrink */
+    flex: 0 0 auto; /* This will prevent cards from growing or shrinking */
+}
+
+.card img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card h3, .card p, .star-rating {
+    margin: 10px;
+}
+.card p {
+    color: #666;
+}
+
+.star-rating {
+    color: gold;
+    margin: 10px 0;
+}
+
+.price {
+    color: #E64A19; /* Keeping the style from your image */
+    font-weight: bold;
+}
+
+.order-button {
+    background-color: #E64A19;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px; /* Add margin on the sides */
+}
+
+.order-button:hover {
+    background-color: #CC3D18;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center; /* Center-aligns all header elements */
+    color: rgb(51, 51, 51); /* Dark gray, adjustable as needed */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif; /* Elegant serif font */
+}
+
+.second-title{
+    font-size: 28px; /* Slightly smaller than h1 */
+    font-weight: 700; /* Still bold */
+    color:aliceblue
+}
+
+.third-title {
+    font-size: 24px; /* Smaller than h2 */
+    font-weight: 400; /* Normal weight for less emphasis */
+    color:aliceblue
+
+}
+
+.sign-up {
+    background-color: #4a5a98; /* Vibrant green background */
+    color: white; /* White text for contrast */
+    font-size: 16px; /* Adequate text size */
+    font-weight: bold; /* Bold text to make it stand out */
+    padding: 12px 24px; /* Vertical and horizontal padding */
+    border: none; /* No border for a modern look */
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer; /* Cursor changes to a pointer to indicate it's clickable */
+    text-transform: uppercase; /* Uppercase text for a more impactful design */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effects */
+    outline: none; /* Remove outline to clean up focus state */
+}
+
+.sign-up:hover, .sign-up:focus {
+    background-color: #45A049; /* Slightly darker shade of green on hover/focus */
+    transform: scale(1.05); /* Slightly increase size on hover/focus for effect */
+}
+
+.sign-up:active {
+    background-color: #3E8C43; /* Even darker for the active state */
+    transform: scale(0.98); /* Slight shrink effect when clicked */
+}
+.login {
+    background-color: rgb(99, 141, 200); /* Deep grey background, neutral and professional */
+    color: white; /* White text for contrast */
+    font-size: 16px; /* Consistent text size with the sign-up button */
+    font-weight: bold; /* Bold text to highlight the button */
+    padding: 12px 24px; /* Padding to ensure it's clickable and looks balanced */
+    border: none; /* No border for a sleek look */
+    border-radius: 5px; /* Rounded corners for a modern appearance */
+    cursor: pointer; /* Changes the cursor to indicate it's clickable */
+    text-transform: uppercase; /* Uppercase text for a uniform design with the sign-up button */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions for interactive effects */
+    outline: none; /* Removes the outline to maintain a clean focus state */
+}
+
+.login:hover, .login:focus {
+    background-color: #6e6e6e; /* A lighter grey for hover/focus to provide feedback */
+    transform: scale(1.05); /* Slightly enlarges the button on hover/focus for a dynamic effect */
+}
+
+.login:active {
+    background-color: #4d4d4d; /* Darker grey for the active state to simulate a button press */
+    transform: scale(0.98); /* Subtle shrink effect when the button is clicked */
+}
+
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+h1 {
+    font-size: 65px;
+    font-family: "Cambria"; /*change font later*/
+    text-align: center;
+    color: white;
+}
+
+body {
+    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*stretches background*/
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+}
+

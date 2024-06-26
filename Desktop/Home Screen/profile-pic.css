@@ -1,0 +1,61 @@
+/****MERGE THIS INTO A FOLDER WITH NAV BAR*****/
+/* Styling for the profile container */
+.profile-container {
+    position: relative;
+    left: 95%;
+    bottom: 45px;
+    display: inline-block;
+}
+
+/* Profile picture styling */
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    right: 10px;
+    top: 2px;
+}
+
+.dropdown-menu {
+    display: none; 
+    position: absolute;
+    top: 45px; 
+    right: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+/* Styling for the dropdown menu items */
+.dropdown-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0px;
+    background-color: white;
+    display: block;
+    font-family: Cambria;
+}
+
+/* Styling for each menu item */
+.dropdown-menu li {
+    padding: 10px 15px;
+    cursor: pointer;
+    white-space: nowrap; /* Prevent text wrapping */
+    border-bottom: 1px solid #ccc; /* Optional: Add a separator between items */
+    margin-bottom: -1px;
+    border-right: 0px;
+}
+
+/* Remove border for the last menu item */
+.dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+/* Styling for hovering over menu items */
+.dropdown-menu li:hover {
+    background-color: #f0f0f0;
+}
